@@ -1,0 +1,34 @@
+{
+  "rails":
+  [
+    "actioncable",
+    "actionmailbox",
+    "actionmailer",
+    "actionpack",
+    "actiontext",
+    "actionview",
+    "activejob",
+    "activemodel",
+    "activerecord",
+    "activestorage",
+    "activesupport",
+    "railties"
+  ],
+  "solidus":
+  [
+    "solidus",
+    "solidus_api",
+    "solidus_backend",
+    "solidus_core",
+    "solidus_frontend",
+    "solidus_sample"
+  ],
+  "sentry-ruby-core":
+  [
+    "sentry-ruby",
+    "sentry-rails",
+    "sentry-delayed_job",
+    "sentry-resque",
+    "sentry-sidekiq"
+  ]
+}
