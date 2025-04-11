@@ -37,12 +37,13 @@ Here's an example:
 }
 ```
 
-The whole list is a hash (or rather JSON object). The key is a unique but
-arbitrary group name. Usually, if there's a "root" package, such as `solidus` in
-this case, that's a good group name, so please don't name your group
-"florpmangle" just because you can.
+The whole list is a hash (or rather JSON object). The key must be unique and,
+for rubygems, must be the same as the main package name. For npm packages, the
+key is arbitrary, but of course, if a "root" package of sorts exists, that
+package name is a good key.
 
-Following is an array of package names.
+The value of the hash is an array of package names of the packages that make up
+the group.
 
 ## Tooling
 
