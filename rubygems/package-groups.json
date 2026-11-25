@@ -1,4 +1,19 @@
 {
+  "flipper":
+  [
+    "flipper",
+    "flipper-active_record",
+    "flipper-active_support_cache_store",
+    "flipper-api",
+    "flipper-cloud",
+    "flipper-dalli",
+    "flipper-moneta",
+    "flipper-mongo",
+    "flipper-redis",
+    "flipper-rollout",
+    "flipper-sequel",
+    "flipper-ui"
+  ],
   "rails":
   [
     "actioncable",
@@ -14,6 +29,14 @@
     "activesupport",
     "railties"
   ],
+  "sentry-ruby-core":
+  [
+    "sentry-ruby",
+    "sentry-rails",
+    "sentry-delayed_job",
+    "sentry-resque",
+    "sentry-sidekiq"
+  ],
   "solidus":
   [
     "solidus",
@@ -22,13 +45,5 @@
     "solidus_core",
     "solidus_frontend",
     "solidus_sample"
-  ],
-  "sentry-ruby-core":
-  [
-    "sentry-ruby",
-    "sentry-rails",
-    "sentry-delayed_job",
-    "sentry-resque",
-    "sentry-sidekiq"
   ]
 }
